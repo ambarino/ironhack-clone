@@ -57,10 +57,15 @@ h4 {
 
 ul li {
   display: inline-block;
+  padding: 0 10px;
 }
 
 ul li a{
   text-decoration: none;
+}
+
+.hamburguesa {
+  display: none;
 }
 
 /* HERO */
@@ -156,12 +161,24 @@ cite {
     background-position-y: -50px;
   }
 
+  ul {
+    display: none;
+  }
+
+  .hamburguesa {
+    display: inline-block;
+    margin: auto 0;
+    font-size: 5em;
+    color: white;
+    font-weight: 900;
+  }
+
   .navigation {
     font-size: 0.8em;
   }
 
   .navigation img {
-    width: 30px;
+    width: 50px;
   }
   nav {
     margin: auto 0;
@@ -178,7 +195,7 @@ cite {
 }
 
 
-@media (max-width: 990px) {
+@media (min-width: 761px) and (max-width: 990px) {
   h1 {
     font-size: 2.4em;
     width: 70%;
@@ -194,10 +211,10 @@ cite {
   }
 
   .navigation img {
-    width: 2000px;
+    width: 50px;
   }
   nav {
-    margin: auto;
+    margin: auto 0;
   }
  
   .blue-button {
@@ -224,7 +241,7 @@ cite {
 
 
 
-@media (max-width: 1160px) {
+@media (min-width: 991px) and (max-width: 1200px) {
 
   aside img {
     width: 100px;
@@ -247,7 +264,7 @@ cite {
     width: 60px;
   }
   nav {
-    margin: auto;
+    margin: auto 0;
   }
  
   .blue-button {
