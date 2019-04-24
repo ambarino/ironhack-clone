@@ -157,7 +157,7 @@ cite {
   }
 
   .home-background {
-    background-size: 200%;
+    background-size: 100%;
     background-position-y: -50px;
   }
 
@@ -191,6 +191,10 @@ cite {
 
   .hero p {
     font-size: 0.8em;
+  }
+
+  .hero {
+    height: 400px;
   }
 }
 
