@@ -1,0 +1,273 @@
+body {
+  padding: 30px 0;
+  color: lightgrey;
+}
+
+section {
+  padding: 60px 0;
+}
+
+h1 {
+  font-size: 3.5em;
+  width: 40%;
+  text-align: center;
+  margin: 10% auto 0;
+  color: white;
+}
+
+h2 {
+  font-size: 3.2em;
+  font-weight: 800;
+  color: rgb(61, 61, 61);
+
+}
+
+h3 {
+  font-size: 1.4em;
+  padding-top: 20px;
+  color: rgb(61, 61, 61);
+}
+
+h4 {
+  color: rgb(61, 61, 61);
+  font-size: 1.3em;
+}
+
+/* ESPEFICICO */
+
+
+/* NAVIGATION*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  
+}
+
+
+.home-background {
+  margin: 0 auto;
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: -300px;
+  background-repeat: repeat-y;
+  background-image: url("../imgs/home.svg");
+}
+
+
+ul li {
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+/* HERO */
+
+.hero {
+  height: 70vh;
+  color: white;
+
+  text-align: center;
+}
+
+.hero span {
+  color: blue;
+}
+
+.blue-button {
+  display: inline-block;
+  padding: 20px 60px;
+  border-radius: 15px;
+  background-color: lightblue;
+  text-decoration: none;
+  color: white;
+  font-weight:900;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+}
+
+
+
+/* ASIDE */
+
+aside {
+  padding: 40px 0;
+  text-align: center;
+  border-bottom: 1px solid lightgray  ;
+  border-top: 1px solid lightgray;
+}
+
+aside img {
+  width: 150px;
+}
+
+/*IRON INFO*/
+
+.iron-info {
+  text-align: center;
+}
+
+
+
+.iron-info p {
+  font-size: 1.2em;
+  color: lightgrey;
+}
+
+.students {
+  width: 100%;
+}
+
+
+
+.quote {
+  display: block;
+  color: lightsalmon;
+}
+
+cite {
+  color: lightsalmon;
+  font-size: 1.6em;
+}
+
+.info-button {
+  display: block;
+  padding: 10px ;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: lightblue;
+  border:1px solid lightblue;
+  border-radius: 5px;
+}
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  .home-background {
+    background-size: 200%;
+    background-position-y: -50px;
+  }
+
+  .navigation {
+    font-size: 0.8em;
+  }
+
+  .navigation img {
+    width: 30px;
+  }
+  nav {
+    margin: auto 0;
+  }
+ 
+  .blue-button {
+  padding: 10px 40px;
+  font-size: 1.2em;
+  }
+
+  .hero p {
+    font-size: 0.8em;
+  }
+}
+
+
+@media (max-width: 990px) {
+  h1 {
+    font-size: 2.4em;
+    width: 70%;
+  }
+
+  .home-background {
+    background-size: 80%;
+    background-position-y: -100px;
+  }
+
+  .navigation {
+    font-size: 0.8em;
+  }
+
+  .navigation img {
+    width: 2000px;
+  }
+  nav {
+    margin: auto;
+  }
+ 
+  .blue-button {
+  padding: 10px 40px;
+  font-size: 1.2em;
+  }
+
+  .hero p {
+    font-size: 0.8em;
+  }
+
+  .hero {
+    height: 40vh;
+  }
+
+  cite {
+    font-size: 1.4em;
+  }
+
+  .quote {
+    margin: 15px auto;
+  }
+}
+
+
+
+@media (max-width: 1160px) {
+
+  aside img {
+    width: 100px;
+  }
+  h1 {
+    font-size: 2.4em;
+    width: 70%;
+  }
+
+  .home-background {
+    background-size: 70%;
+    background-position-y: -200px;
+  }
+
+  .navigation {
+    font-size: 0.8em;
+  }
+
+  .navigation img {
+    width: 60px;
+  }
+  nav {
+    margin: auto;
+  }
+ 
+  .blue-button {
+  padding: 10px 40px;
+  font-size: 1.2em;
+  }
+
+  .hero p {
+    font-size: 0.8em;
+  }
+
+  .hero {
+    height: 40vh;
+  }
+
+  cite {
+    font-size: 1.6em;
+  }
+
+  .quote {
+    margin: 15px auto;
+  }
+}
